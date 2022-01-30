@@ -1,0 +1,85 @@
+.flex{
+    display: flex;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.justify-spacebetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.templet {
+    width: 100%;
+}
+
+.header-box {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid indigo;
+    /* margin: 20px auto; */
+}
+
+.left-options-contianer {
+    position: relative;
+}
+
+.row-buttons {
+    margin-top: 20px;
+    margin-left: 30%;
+    display: flex;
+}
+
+.row-buttons button {
+    margin-right: 10px;
+}
+
+.table-config-modal {
+    visibility: hidden;
+    position: absolute;
+    z-index: 100;
+    right: 100%;
+    top: 0;
+    padding: 20px;
+    border: 1px solid indigo;
+    background-color: white;
+}
+.invisible{
+    visibility: hidden;
+    position: absolute;
+}
+.right-tool-bar{
+    position: relative;
+}
+.font-color-picker{
+    top: 30px;
+    left: -20px;
+}
+.cell-color-picker{
+    top: 56px;
+    left: -20px;
+}
+.show {
+    visibility: visible;
+}
+.inner-box{
+    min-height: 300px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
